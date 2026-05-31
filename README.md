@@ -13,20 +13,14 @@
 ## Install
 
 ```sh
-npm install
-```
-
-## Run tests
-
-```sh
-npm run test
+working on it!!!
 ```
 
 ## Author(s)
 
 👤 **clswhre**
 
-- Github: [@clswhre](https://github.com/clswhre)
+- Github:   [@clswhre](https://github.com/clswhre)
 - LinkedIn: [@Bohdan Kryzhov](https://linkedin.com/in/bohdan-kryzhov-a4895439a)
 
 👤 **ranon132**
