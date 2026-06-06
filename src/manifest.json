@@ -9,6 +9,7 @@
       "48": "icons/icon48.png"
     }
   },
+  "homepage_url": "https://github.com/clswhre/Tangerine",
   "content_scripts": [
     {
       "matches": [
@@ -20,7 +21,9 @@
     }
   ],
   "permissions": [
-    "storage"
+    "activeTab",
+    "storage",
+    "tabs"
   ],
   "icons": {
     "16": "icon16.png",
