@@ -11,14 +11,9 @@ function isChannelPage() {
 
 browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === "getStatus") {
-        console.log('Popup checking status...');
-        const status = {
+        sendResponse({
             twitchLoggedIn: isLoggedIn(),
             twitchChannelPage: isChannelPage()
-        };
-        console.log('Sending status:', status);
-        sendResponse(status);
+        });
     }
 });
-
-console.log('content.js is working on a page:', window.location.href);
