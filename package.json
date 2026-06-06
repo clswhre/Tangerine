@@ -2,9 +2,11 @@
   "name": "Tangerine",
   "version": "1.0.0",
   "description": "",
-  "main": "content.js",
+  "main": "src/content.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "web-ext run -s src",
+    "build": "web-ext build -s src",
+    "lint": "web-ext lint -s src"
   },
   "keywords": [],
   "author": "",
